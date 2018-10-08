@@ -1,0 +1,20 @@
+#exclude VS Code WS files
+*.code-workspace
+
+#SCSS transpiler to CSS
+gulpfile.js
+
+
+#exlude node_modules used in the project
+node_modules/*
+
+#exclude VS Code task files
+.vscode/*
+
+*.package-lock.json
+
+#test coverage files
+coverage/*
+
+#Es lint files
+.eslint*
